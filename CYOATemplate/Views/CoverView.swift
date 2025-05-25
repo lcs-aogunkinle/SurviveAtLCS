@@ -23,11 +23,16 @@ struct CoverView: View {
                 ProgressView()
                 
             } else {
+               // Cover logo
+                Image("CoverLogo")
+                   
+                
                 
                 // Show the cover
                 Text("Journey Under the Sea")
                     .font(.largeTitle)
-                
+               
+        
                 Button {
                     // Animate page changes (fade)
                     withAnimation {
