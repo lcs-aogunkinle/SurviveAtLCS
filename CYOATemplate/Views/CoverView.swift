@@ -23,11 +23,17 @@ struct CoverView: View {
                 ProgressView()
                 
             } else {
+               // Cover logo
+                Image("CoverLogo")
+                   
+                
                 
                 // Show the cover
-                Text("Journey Under the Sea")
+                Text("The LCS Journey")
                     .font(.largeTitle)
-                
+                    .foregroundStyle(.green)
+               
+        
                 Button {
                     // Animate page changes (fade)
                     withAnimation {
@@ -37,6 +43,7 @@ struct CoverView: View {
                     Text("Begin reading")
                 }
                 .buttonStyle(.borderedProminent)
+                
             }
             
         }
