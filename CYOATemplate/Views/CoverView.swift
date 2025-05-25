@@ -29,8 +29,9 @@ struct CoverView: View {
                 
                 
                 // Show the cover
-                Text("Journey Under the Sea")
+                Text("The LCS Journey")
                     .font(.largeTitle)
+                    .foregroundStyle(.green)
                
         
                 Button {
@@ -42,6 +43,7 @@ struct CoverView: View {
                     Text("Begin reading")
                 }
                 .buttonStyle(.borderedProminent)
+                
             }
             
         }
